@@ -1,7 +1,7 @@
-f = open('train.nmv.txt')
+f = open('train-imputed.txt')
 classList = open('classList.txt', 'w')
 instances = open('instances.txt', 'w')
-test = open('prelim-nmv-noclass.txt')
+test = open('final-nmv-noclass.txt')
 testCleaned = open('test-cleaned.txt', 'w')
 
 for line in f:
